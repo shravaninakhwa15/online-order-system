@@ -1,0 +1,7 @@
+# =====================================================================
+# Database Configuration Template for Online Order System
+# Copy this file to 'config/db.properties' and fill in your MySQL credentials
+# =====================================================================
+db.url=jdbc:mysql://localhost:3306/online_order_system?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=YOUR_MYSQL_PASSWORD_HERE

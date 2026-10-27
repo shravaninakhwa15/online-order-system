@@ -1,0 +1,29 @@
+# =====================================================================
+# Git Ignore for Online Order System (College SLA Microproject)
+# =====================================================================
+
+# 1. Database credentials & secrets
+config/db.properties
+*.properties.local
+.env
+
+# 2. Java Compiled binaries
+bin/
+out/
+target/
+*.class
+
+# 3. JAR files (excluding library driver)
+*.jar
+!lib/mysql-connector-j-8.0.33.jar
+
+# 4. OS & IDE metadata
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
